@@ -1,0 +1,43 @@
+/* ChartStyles.css */
+.chart-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 24rem;
+    width: 100%;
+  }
+  
+  .chart-header {
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .chart-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #111827;
+    margin: 0;
+  }
+  
+  .chart-content {
+    padding: 1rem;
+    height: calc(100% - 4rem);
+  }
+  
+  .empty-state {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .empty-message {
+    font-size: 1.125rem;
+    color: #6b7280;
+  }
+  
+  /* Add some hover effect to bars */
+  .recharts-bar-rectangle:hover {
+    opacity: 0.8;
+  }

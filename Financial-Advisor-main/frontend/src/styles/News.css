@@ -1,0 +1,137 @@
+.news-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .news-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .news-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  }
+  
+  .news-header {
+    margin-bottom: 15px;
+  }
+  
+  .news-header h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.4em;
+    color: #333;
+  }
+  
+  .news-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  .source {
+    font-weight: bold;
+  }
+  
+  .news-content {
+    display: none;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  .expanded .news-content {
+    display: block;
+  }
+  
+  .news-content p {
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .news-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .topics {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  
+  .topic-tag {
+    background: #f0f0f0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    color: #666;
+  }
+  
+  .sentiment-indicator {
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: white;
+    font-size: 0.8em;
+    text-transform: capitalize;
+  }
+  
+  .read-more {
+    display: inline-block;
+    margin-top: 15px;
+    color: #2196F3;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease;
+  }
+  
+  .read-more:hover {
+    color: #1976D2;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .news_section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .news_header{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0;
+
+  }
+
+  .RefreshBtn{
+    background-color: var(--color_one);
+    color: white !important;
+  }
+  .RefreshBtn:hover{
+    background-color: var(--color_four);
+    color: black !important;
+    cursor: pointer;
+  }

@@ -1,0 +1,149 @@
+Main Container .budgeting-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.alert-warning {
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+}
+
+.positive {
+  color: #74ff95;
+}
+
+.negative {
+  color: #dc3545;
+}
+ .budgeting_container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.alert_budget {
+  padding: 10px 20px;
+  background-color: var(--color_one);
+  border-radius: var(--border-radius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+.stats_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.stat_card {
+  margin: 0 10px;
+  padding: 20px;
+  background-color: var(--color_three);
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  border-radius: var(--border-radius);
+}
+
+.form_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 15px 0;
+}
+.global_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.global_box {
+  margin: 7px 0;
+}
+
+.buttonGoal {
+  color: var(--color_six) !important;
+  background-color: var(--color_two) !important;
+}
+.buttonGoal:hover {
+  color: white !important;
+  background-color: var(--color_one) !important;
+}
+
+.goals_section {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+}
+.goals_grid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+  flex-direction: column;
+}
+.progress_container {
+  position: relative;
+  background-color: var(--color_three);
+  border-radius: var(--border-radius);
+  margin: 5px 0;
+}
+.progress_bar {
+  background-color: var(--color_one);
+  height: 19px;
+  border-radius: var(--border-radius);
+}
+.progress_text {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: white;
+}
+
+.goal_card {
+  width: 100%;
+  background-color: var(--color_four);
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: var(--border-radius);
+}
+
+.goal_card_innerWrap {
+  display: flex;
+}
+.remaining_amount {
+  width: 100%;
+  text-align: right;
+  font-weight: 600;
+}
+.goal_amount {
+  width: 100%;
+  font-weight: 600;
+  margin-top: 1%;
+}

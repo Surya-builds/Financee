@@ -1,0 +1,112 @@
+.mainExpense {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px;
+  width: 70%;
+}
+.mainExpense1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tracker_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.tracker_form > button {
+  background-color: var(--color_six);
+  color: white;
+}
+.tracker_form > button:hover {
+  background-color: var(--color_one);
+  color: white;
+}
+.expense_tracker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#deleteButton:hover {
+  cursor: pointer;
+}
+.expenseBox {
+  margin: 10px 0;
+}
+
+.viewExpenses {
+  width: 300px;
+  height: 300px;
+  border-radius: var(--border-radius);
+  background-color: var(--color_six);
+  color: white;
+  text-align: center;
+}
+
+.ulViewExpenses {
+  width: 300px;
+  height: 300px;
+  padding: 18px;
+  overflow-y: scroll;
+}
+.ulViewExpenses > h2 {
+  margin-bottom: 10px;
+}
+.ulViewExpenses > li {
+  font-weight: 600;
+  padding: 10px;
+  border-radius: var(--border-radius);
+  transition: all 0.3s ease-in-out;
+}
+.ulViewExpenses > li:hover {
+  background-color: var(--color_five);
+  color: white;
+}
+.liName1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.liFirst {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#liSecondLine {
+  width: 100%;
+  text-align: start;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.graph-container {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 20px;
+  background: white;
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .mainExpense {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tracker_form,
+  .viewExpenses {
+    width: 100%;
+    max-width: 500px;
+  }
+}
